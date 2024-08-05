@@ -1,0 +1,32 @@
+.body {
+  font-family: "Anuphan", sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: #757575;
+}
+
+::-webkit-scrollbar-track:active {
+  background-color: #b8c0c2;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #dfe9eb;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a3a3a3;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #a3a3a3;
+}
